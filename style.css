@@ -293,7 +293,9 @@ section {
   .text-container p{
     text-align: justify;
   }
-  
+  .section__text__p1{
+    font-size: 10px;
+  }
   .about-pic {
     border-radius: 2rem;
   }

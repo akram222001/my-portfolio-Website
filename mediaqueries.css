@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 270px) {
   #contact,
   footer {
     height: 40vh;
@@ -101,3 +101,5 @@
     text-align: justify;
   }
 }
+
+/*contact info right site table*/

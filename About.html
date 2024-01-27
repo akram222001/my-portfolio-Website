@@ -7,11 +7,52 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
-  <body>
+  <body class="about-color">
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-pic.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/intro.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Self Introduce</h3>
+                <p class="para">
+                  Hello My name is <b>Akram Ansari</b> i am from Madhubani-Bihar, and Currently 
+                  i live in Hyderabad and i am doing <b>B.Tech in Conputer Science</b> from 
+                  Maulana Azad National Urdu University Hyderabad before that I completed <b> 
+                  in Computer Sciense Engineering</b> from Maulana Azad National Urdu
+                  University Bangalore and also attend <b>training forture info Tech</b> 
+                  with Web Designing & Digital Marketing and, Now i am B.Tech final 
+                  year and also doing <b> Full Stack Web Development cousre </b>  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To or Details</p>
+        <h1 class="title">Edu & Course</h1>
         <div class="section-container">
           <div class="section__pic-container">
             <img
@@ -58,5 +99,32 @@
           onclick="location.href='./#experience'"
         />
       </section>
+      <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>This is my first intro Portfolio, its objective is job</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Skills.html">Skills</a></li>
+                    <li><a href="project.html">Project</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100022509590657&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/MdDanishAkram8?t=pYfndeClcUuFEKzdkJzveg&s=08 " target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/er_akramansari?igsh=NGVjOHppY205dzlj" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <!-- Add more social media icons as needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+      <script src="script.js"></script>
   </body>
   </html>
